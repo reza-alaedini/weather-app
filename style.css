@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "Yekan Bakh Bold";
+  src: url("fonts/YekanBakh-Bold.eot");
+  src: url("fonts/YekanBakh-Bold.eot") format("embedded-opentype"),
+    url("fonts/YekanBakh-Bold.woff2") format("woff2"),
+    url("fonts/YekanBakh-Bold.woff") format("woff"),
+    url("fonts/YekanBakh-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Yekan Bakh";
+  src: url("fonts/YekanBakh-Regular.eot");
+  src: url("fonts/YekanBakh-Regular.eot") format("embedded-opentype"),
+    url("fonts/YekanBakh-Regular.woff2") format("woff2"),
+    url("fonts/YekanBakh-Regular.woff") format("woff"),
+    url("fonts/YekanBakh-Regular.ttf") format("truetype");
+}
+#city {
+  font-family: "Yekan Bakh Bold";
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+#city:focus{
+  transform: scale(1.1);
+}
+.card {
+  font-family: "Yekan Bakh Bold";
+}
+.mybtn:hover {
+  cursor: default !important;
+}
+body {
+  background-image: url(img/back-ground.jpg);
+  background-size: cover;
+}
+#pageTitle,
+#alert {
+  font-family: "Yekan Bakh";
+}
+hr {
+  background-color: rgba(255, 255, 255, 0.267) !important;
+}
+.preloader {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #dff0f6;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: wait;
+}
